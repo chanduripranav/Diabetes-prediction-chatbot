@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diabetes Risk Assistant</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>Diabetes Risk Assistant</h1>
+            <p class="warning">
+                This is NOT a medical diagnosis. Always consult a doctor.
+            </p>
+        </header>
+
+        <main id="chat-window"></main>
+
+        <footer>
+            <form id="chat-form">
+                <input
+                    id="user-input"
+                    type="text"
+                    placeholder="Type your answer..."
+                    autocomplete="off"
+                />
+                <button type="submit">Send</button>
+            </form>
+        </footer>
+    </div>
+
+    <script src="/static/chat.js"></script>
+</body>
+</html>
